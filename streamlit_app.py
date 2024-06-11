@@ -1,7 +1,6 @@
 import streamlit as st 
 import pandas as pd
-def read_excel(file):
-    return pd.read_excel(file)
+
     
 st.markdown("# Data Evaluation App")
 
