@@ -14,4 +14,5 @@ st.title("Excel File Viewer")
 # File uploader widget
 uploaded_file = st.file_uploader("Choose an Excel file", type=["xlsx", "xls", "csv"])
 st.write("generate the excel sheet")
-
+df=pd.read_file(uploaded_file)
+print(df)
