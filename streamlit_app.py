@@ -15,5 +15,4 @@ st.title("Excel File Viewer")
 uploaded_file = st.file_uploader("Choose an Excel file", type=["xlsx", "xls", "csv"])
 st.write("generate the excel sheet")
 st.write(uploaded_file)
-df=p.read_excel(uploaded_file)
-st.write(df)
+
